@@ -19,5 +19,10 @@ MyDll_API double Mult(double a, double b)
 
 MyDll_API double Div(double a, double b)
 {
+	if (b == 0)
+	{
+		cout << "Can't divide by zero" << endl;
+		return 0;
+	}
 	return a/b;
 }

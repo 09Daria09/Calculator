@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	int a = 10, b = 11;
+	int a = 10, b = 0;
 	cout<<"Sum: "<<Sum(a, b)<<endl;
 	cout << "Min: " << Min(a, b) << endl;
 	cout << "Mult: " << Mult(a, b) << endl;
